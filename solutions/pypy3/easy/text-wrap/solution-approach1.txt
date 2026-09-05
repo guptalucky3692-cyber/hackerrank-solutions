@@ -7,6 +7,12 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-06-20, 05:20 p.m.
+# Technique   textwrap-library-utilization
+# Time        O(N)
+# Space       O(N)
+# Insight     The implementation leverages the built-in textwrap module to efficiently partition the input string into segments of the specified maximum width.
+# Interview   Before: "I would manually iterate through the string and insert newline characters at every max_width interval." After: "Using textwrap.fill provides an O(N) solution that handles word boundaries and formatting constraints automatically, which is more robust than manual slicing for this O(N) space requirement."
+# Pitfalls    (1) Assuming the input string contains no existing newline characters, which might be incorrectly processed by manual iteration logic.
 # ──────────────────────────────────────────────────
 
 
