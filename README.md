@@ -1,6 +1,5 @@
 # hackerrank-solutions
-💻 Coding Solutions | 🏆 HackerRank & LeetCode
+💻 Coding Solutions | 🏆 HackerRank 
 🟢 Easy | 🟡 Medium | 🔴 Hard
 🧠 DSA • Problem Solving • Algorithms
-🐍 Python • C++ | 📐 Mathematics
-🚀 Learning, solving & building every day
+🐍 Python •  📐 Mathematics
