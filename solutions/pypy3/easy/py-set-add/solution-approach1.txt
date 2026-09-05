@@ -7,6 +7,12 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-06-09, 04:08 p.m.
+# Technique   set-insertion-counting
+# Time        O(N)
+# Space       O(N)
+# Insight     The implementation utilizes a set to automatically filter duplicate country names while tracking unique entries during iteration.
+# Interview   Before: "I would use a list and check for existence before adding." After: "Using a set provides O(1) average time complexity for insertions, resulting in an overall O(N) time complexity to count distinct stamps, which is optimal for large collections."
+# Pitfalls    (1) Attempting to use a list instead of a set would result in O(N^2) time complexity due to repeated membership checks.  (2) Failing to convert the input count to an integer will cause a TypeError during the range iteration.
 # ──────────────────────────────────────────────────
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
