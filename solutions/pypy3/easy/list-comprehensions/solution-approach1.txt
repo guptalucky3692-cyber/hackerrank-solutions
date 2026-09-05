@@ -7,6 +7,12 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-06-21, 01:17 p.m.
+# Technique   nested-list-comprehension
+# Time        O(x * y * z)
+# Space       O(x * y * z)
+# Insight     The implementation generates all coordinate triplets within the inclusive bounds [0, x], [0, y], and [0, z] and filters them based on the condition that their sum does not equal n.
+# Interview   Before: "How would you generate all grid points excluding those with a specific sum?" After: "I used a nested list comprehension to iterate through the ranges [0, x], [0, y], and [0, z] in O(x*y*z) time, filtering out triplets where i+j+k equals n."
+# Pitfalls    (1) Using range(x) instead of range(x + 1) fails to include the upper bound dimension as required by the problem statement.  (2) Incorrectly ordering the nested loops or the list elements would violate the requirement to print in lexicographic increasing order.
 # ──────────────────────────────────────────────────
 
 if __name__ == '__main__':
