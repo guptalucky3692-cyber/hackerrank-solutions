@@ -7,6 +7,12 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-06-09, 04:17 p.m.
+# Technique   standard-output-print
+# Time        O(1)
+# Space       O(1)
+# Insight     The program executes a single print statement to output the required string literal to the standard output stream.
+# Interview   Before: "How do I output text in Python?" After: "You use the print function, which operates in O(1) time and space, to display the string literal 'Hello, World!' to the console."
+# Pitfalls    (1) The output string must exactly match 'Hello, World!' including the comma and space, as any deviation will cause a test failure.  (2) The print function automatically appends a newline character, which is expected by the problem's output format.
 # ──────────────────────────────────────────────────
 
 if __name__ == '__main__':
