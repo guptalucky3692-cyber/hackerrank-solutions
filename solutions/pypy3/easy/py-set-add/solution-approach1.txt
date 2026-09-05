@@ -1,0 +1,17 @@
+# ──────────────────────────────────────────────────
+# Link        https://www.hackerrank.com/challenges/py-set-add/problem?isFullScreen=true
+# Problem     Set .add() 
+# Difficulty  Easy
+# Subdomain   Sets
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-06-09, 04:08 p.m.
+# ──────────────────────────────────────────────────
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+m = input()
+s = set()
+for i in range(0, int(m)):
+    s.add(input())
+print(len(list(s)))
