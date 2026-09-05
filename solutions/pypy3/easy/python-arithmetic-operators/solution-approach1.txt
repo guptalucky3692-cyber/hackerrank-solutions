@@ -7,6 +7,12 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-06-08, 04:54 p.m.
+# Technique   basic-arithmetic-operations
+# Time        O(1)
+# Space       O(1)
+# Insight     The implementation performs standard arithmetic operations on two input integers and prints the results sequentially as required by the problem statement.
+# Interview   Before: "How would you perform basic arithmetic on two inputs?" After: "I read two integers from standard input and apply addition, subtraction, and multiplication operators, resulting in O(1) time and space complexity regardless of the integer magnitude."
+# Pitfalls    (1) Failing to convert input strings to integers using int() before performing arithmetic operations.  (2) Printing the difference as b - a instead of the required a - b order.
 # ──────────────────────────────────────────────────
 
 if __name__ == '__main__':
