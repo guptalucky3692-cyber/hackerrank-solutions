@@ -73,7 +73,7 @@ JIT Compiler
 Often Faster for Long-Running Python Code
   ↓
 Competitive Programming
-# Hi, I'm YOUR NAME 👋
+# Hi, I'm LUCKY Gupta  👋
 
 Engineering student | Problem solver | Learning in public
 
