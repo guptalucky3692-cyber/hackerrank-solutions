@@ -1,4 +1,4 @@
-
+80
 
 <div align="center">
 
@@ -153,10 +153,5 @@ Engineering student | Problem solver | Learning in public
 
 
 
-## 📌 Featured Projects
-- **[Project 1](link)**: one-line description
-- **[Project 2](link)**: one-line description
 
-## 📫 Contact
-[LinkedIn](your-link) | your@email.com
 
