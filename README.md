@@ -12,7 +12,8 @@
 
 ![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black) 
 
-](https://www.hackerrank.com/profile/YOUR_HR_USERNAME)
+]https://www.hackerrank.com/profile/guptal90010
+
 
 </div>
 
