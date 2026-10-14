@@ -1,3 +1,32 @@
+
+
+<div align="center">
+
+<img src="assets/hackerrank.gif" width="120" alt="HackerRank logo" />
+
+# Welcome. to hacker rank 👍H 
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00EA64&center=true&vCenter=true&width=435&lines=Problem+Solver;HackerRank+Enthusiast;Learning+in+Public" alt="Typing animation" />
+
+[
+
+![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black) 
+
+](https://www.hackerrank.com/profile/YOUR_HR_USERNAME)
+
+</div>
+
+## 🏆 HackerRank
+- ⭐ Problem Solving: X stars
+- 🐍 Python: gold badge
+- 🔗 [My profile](https://www.hackerrank.com/profile/YOUR_HR_USERNAME)
+
+## 📊 GitHub Stats
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GH_USERNAME&show_icons=true&theme=tokyonight" />
+</div>
+
+
 | Problem                                                                          | Python | PyPy |
 | -------------------------------------------------------------------------------- | ------ | ---- |
 | [Say "Hello, World!" With Python](./01-introduction/say-hello-world-with-python) | ✅      | ✅    |
